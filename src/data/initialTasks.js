@@ -1,0 +1,51 @@
+
+export const initialTasks = [
+  {
+    id: "1",
+    title: "Design Homepage",
+    description: "Create a modern and responsive homepage design.",
+    status: "todo",
+    priority: "High",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "2",
+    title: "Build Navigation Bar",
+    description: "Develop a responsive navigation bar using React.",
+    status: "in-progress",
+    priority: "Medium",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "3",
+    title: "Create Login Page",
+    description: "Build a login page with form validation.",
+    status: "todo",
+    priority: "Low",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "4",
+    title: "Setup React Router",
+    description: "Configure navigation between application pages.",
+    status: "done",
+    priority: "High",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "5",
+    title: "Test Application",
+    description: "Test the application and fix existing bugs.",
+    status: "in-progress",
+    priority: "Medium",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "6",
+    title: "Write Documentation",
+    description: "Prepare project documentation and README.",
+    status: "done",
+    priority: "Low",
+    createdAt: new Date().toISOString(),
+  },
+];
